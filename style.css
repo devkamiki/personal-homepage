@@ -2,9 +2,13 @@ body {
     font-family: "Inter", sans-serif;
     line-height: 1.6;
     margin: 20px;
+    font-style: italic;
 }
 h1, h2, h3 {
     color: #333;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
 }
 a {
     color: #0077cc;
@@ -13,10 +17,3 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-.inter-<uniquifier> {
-  font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-      font-weight: 400;
-        font-style: italic;
-        }
