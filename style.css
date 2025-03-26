@@ -43,6 +43,9 @@ code {
     padding: 2px 4px;
     border-radius: 4px;
     font-style: normal;
+    overflow-wrap: anywhere;
+    word-break: break-all;
+    overflow-wrap: break-word;
 }
 
 footer {
