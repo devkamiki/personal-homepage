@@ -15,42 +15,119 @@
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
     color: #333;
     background-color: #f9f9f9;
-    font-style: normal;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 h1, h2 {
     font-family: 'JetBrains Mono', monospace;
-    color: #0077cc;
-    font-style: normal;
-    font-weight: 700; 
+    color: #1f78d1;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 a {
-    color: #0077cc;
+    color: #1f78d1;
     text-decoration: none;
+    transition: color 0.2s;
 }
 
 a:hover {
+    color: #1068bf;
     text-decoration: underline;
+}
+
+.service-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+
+.service-list li {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    background: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.service-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #1f78d1;
 }
 
 code {
     font-family: 'JetBrains Mono', monospace;
-    background-color: #f4f4f4;
-    padding: 2px 4px;
+    background-color: #f0f4f8;
+    padding: 0.2rem 0.4rem;
     border-radius: 4px;
-    font-style: normal;
+    color: #d63200;
+    font-size: 0.9em;
     overflow-wrap: anywhere;
-    word-break: break-all;
-    overflow-wrap: break-word;
+}
+
+section {
+    margin-bottom: 3rem;
 }
 
 footer {
-    margin-top: 40px;
+    margin-top: 4rem;
     text-align: center;
     font-size: 0.9em;
     color: #777;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .service-list li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
 }

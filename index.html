@@ -5,30 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kamiki Yuki</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="preload" href="fonts/Inter-VariableFont_opsz,wght.ttf" as="font" type="font/ttf" crossorigin>
     <link rel="preload" href="fonts/JetBrainsMono-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
 </head>
 <body>
+<div class="container">
     <header>
         <h1>Welcome to Yuki's Personal Page!</h1>
         <p>Here is a series of web services maintained with ♥️ by Yuki. Feel free to explore!</p>
     </header>
+
     <main>
         <section>
             <h2>Check these awesome services please!</h2>
-            <ul>
-                <li><a href="https://obsp.de">A blog about FOSS projects and how to self-host them, powered by Typecho.</a></li>
-                <li><a href="https://hexo.obsp.de">And its hexo version.</a></li>
-                <li><a href="https://q.obsp.de">A public SearXNG instance.</a></li>
-                <li><a href="https://bin.obsp.de">A public microbin instance.</a></li>
-                <li><a href="https://ai.code.com.de">An OpenWebUI instance, powered with Deepseek API.</a></li>
-                <li><a href="https://vikunja.code.com.de">A fluffy task-manager and team-planner, powered by Vikunja.</a></li>
-                <li><a href="https://wallos.code.com.de">A wallos instance.</a></li>
-                <li><a href="https://neomail.cc">A branded crossbox frontend compatible with MXroute mailboxes.</a></li>
-                <li><a href="https://own.neomail.cc">An ownCloud instance with integration of OnlyOffice.</a> (Which is sunsetting)</li>
-                <li><a href="https://status.obsp.de/status/1">You can check their Uptime here!</a></li>
+            <ul class="service-list">
+                <li>
+                    <i class="service-icon" data-lucide="book-text"></i>
+                    <a href="https://obsp.de">A blog about FOSS projects and how to self-host them, powered by Typecho.</a>
+                </li>
+                <li>
+                    <i class="service-icon" data-lucide="book-open-text"></i>
+                    <a href="https://hexo.obsp.de">And its hexo version.</a>
+                </li>
+                <li>
+                    <i class="service-icon" data-lucide="search"></i>
+                    <a href="https://q.obsp.de">A public SearXNG instance.</a>
+                </li>
+                <li>
+                    <i class="service-icon" data-lucide="file-text"></i>
+                    <a href="https://bin.obsp.de">A public microbin instance.</a>
+                </li>
+                <li>
+                    <i class="service-icon" data-lucide="bot"></i>
+                    <a href="https://ai.code.com.de">An OpenWebUI instance, powered with Deepseek API.</a>
+                </li>
+                <li>
+                    <i class="service-icon" data-lucide="list-checks"></i>
+                    <a href="https://vikunja.code.com.de">A fluffy task-manager and team-planner, powered by Vikunja.</a>
+                </li>
+                <li>
+                    <i class="service-icon" data-lucide="monitor"></i>
+                    <a href="https://wallos.code.com.de">A wallos instance.</a>
+                </li>
+                <li>
+                    <i class="service-icon" data-lucide="mail"></i>
+                    <a href="https://neomail.cc">A branded crossbox frontend compatible with MXroute mailboxes.</a>
+                </li>
+                <li>
+                    <i class="service-icon" data-lucide="cloud"></i>
+                    <a href="https://own.neomail.cc">An ownCloud instance with integration of OnlyOffice.</a> (Which is sunsetting)
+                </li>
+                <li>
+                    <i class="service-icon" data-lucide="heart-pulse"></i>
+                    <a href="https://status.obsp.de/status/1">You can check their Uptime here!</a>
+                </li>
             </ul>
         </section>
+
         <section>
             <h2>About Yuki Kamiki</h2>
             <p>A beginner in self-hosting and an incoming student of engineering.</p>
@@ -38,19 +72,27 @@
             <p>I'm also on <a href="https://stelpolva.moe/@p">fediverse</a>!</p>
             <p>My OpenPGP fingerprint is <code>38FF 0A1F 3A89 A24D EC6F DE71 CB33 4844 E3EF BE9B</code>.</p>
         </section>
+
         <section>
+            <h2>Buy me a Tea</h2>
             <p>Much appreciation if you could support me with cryptocurrency:</p>
             <ul>
-                <li>monero:<code>46iFvur3NEFecBX6fLJmzk2Eh6YsmacLk9kqSVzsazYeXYwoj4NExCi6MBZhh9iUHK2Z9dmHiRc6ZCALfDh2aJ4kG1USXBv</code>.</li>
-                <li>ethereum (USDT preferred):<code>0x80EA383856128e955253DcBa2497f1eD5D6De5fe</code>.</li>
-                <li>tron (USDT preferred):<code>TRpsUF7DqwXGSmjxcka7idcmMdCB2hZe2L</code>.</li>
-                <li>bitcoin:<code>bc1q4vwuyc2x7la5we8xs72hfe0lwulqxqpurkhanv</code>.</li>
+                <li>monero: <code>46iFvur3NEFecBX6fLJmzk2Eh6YsmacLk9kqSVzsazYeXYwoj4NExCi6MBZhh9iUHK2Z9dmHiRc6ZCALfDh2aJ4kG1USXBv</code></li>
+                <li>ethereum (USDT preferred): <code>0x80EA383856128e955253DcBa2497f1eD5D6De5fe</code></li>
+                <li>tron (USDT preferred): <code>TRpsUF7DqwXGSmjxcka7idcmMdCB2hZe2L</code></li>
+                <li>bitcoin: <code>bc1q4vwuyc2x7la5we8xs72hfe0lwulqxqpurkhanv</code></li>
             </ul>
         </section>
     </main>
+
     <footer>
         <p><a href="naq.html">Never Asked Questions</a></p>
         <p>Source code available at <a href="https://gitlab.com/yukikmk/personal-homepage">GitLab</a>.</p>
     </footer>
+</div>
+
+<script>
+    lucide.createIcons();
+</script>
 </body>
 </html>
