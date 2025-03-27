@@ -17,7 +17,6 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
     background-color: #f9f9f9;
 }
 
@@ -84,7 +83,7 @@ a:hover {
 .service-icon {
     width: 24px;
     height: 24px;
-    flex-shrink: 0;
+    flex-shrink: 1;
     color: #1f78d1;
 }
 
@@ -111,7 +110,6 @@ footer {
     border-top: 1px solid #e5e5e5;
 }
 
-/* 响应式设计 */
 @media (max-width: 768px) {
     .container {
         padding: 1.5rem 1rem;
@@ -130,17 +128,39 @@ footer {
         align-items: flex-start;
         gap: 8px;
     }
-
-    .about-list li {
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 8px;
-        }
 }
 
 .about-list {
     list-style: none;
     padding: 0;
-    margin: 0 0 2rem 0;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.about-list li {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  border: 1px solid #e5e5e5;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.about-list li:hover {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
+.about-list li:active {
+  background-color: #ffffff;
+  transform: translateY(1px);
+}
+
+.about-list li.disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
