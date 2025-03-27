@@ -8,16 +8,4 @@
 /zh/naq     /zh/naq.html    200
 /zh/naq/    /zh/naq.html    200
 
-/*
-  headers:
-    Accept-Language: zh*
-  to: /zh/
-  302
-/*
-  headers:
-    Accept-Language: en*
-  to: /en/
-  302
-/*
-  to: /en/
-  302
+/           /en             200
