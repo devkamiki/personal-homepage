@@ -2,6 +2,9 @@
 
 A personal website providing entries to self-hosted services based on FOSS projects, and brief introduction of admin.
 
+Repository is hosted on [GitLab](https://gitlab.com/yukikmk/personal-homepage) and mirrored to [Codeberg](https://codeberg.org/kamiki/personal-homepage).
+Cloudflare Pages clones only from GitHub or GitLab, but you can visit the Codeberg Pages hosted version at https://yuki.obsp.de.
+
 ## License
 
 - **Code (HTML/CSS)**:  
@@ -9,7 +12,7 @@ A personal website providing entries to self-hosted services based on FOSS proje
   *You are free to use, modify, and distribute the code, with attribution and license preservation.*
 
 - **Content (articles, text)**:  
-  Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+  Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
   *You may share and adapt the content, but must give appropriate credit.*
 
 ## Dependencies
