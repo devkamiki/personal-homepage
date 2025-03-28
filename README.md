@@ -18,7 +18,7 @@ The services provided by Kamiki Yuki / Observer's Space, which could be reached 
 
 - [Typecho](https://typecho.org/) and Typecho theme [PureSuck](https://github.com/MoXiaoXi233/PureSuck-theme)
 - [Hexo](https://hexo.io/) and Hexo theme [Stellar](https://github.com/xaoxuu/hexo-theme-stellar/stargazers)
-- [SearXng](https://github.com/searxng/searxng)
+- [SearXNG](https://github.com/searxng/searxng)
 - [Microbin](https://microbin.eu)
 - [Open WebUI](https://github.com/open-webui/open-webui)
 - [Vikunja](https://vikunja.io/)
