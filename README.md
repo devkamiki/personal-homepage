@@ -2,8 +2,8 @@
 
 A personal website providing entries to self-hosted services based on FOSS projects, and brief introduction of admin.
 
-Repository is hosted on [GitLab](https://gitlab.com/yukikmk/personal-homepage) and mirrored to [Codeberg](https://codeberg.org/kamiki/personal-homepage).
-Cloudflare Pages clones only from GitHub or GitLab, but you can visit the Codeberg Pages hosted version at https://yuki.obsp.de.
+Repository is modified on my PC (~~Arch btw~~), fetch+push remote being [GitLab](https://gitlab.com/yukikmk/personal-homepage) and mirrored to [Codeberg](https://codeberg.org/kamiki/personal-homepage) && [GitHub](https://github.com/devkamiki/personal-homepage).   
+Cloudflare Pages, where https://kamiki.pages.dev is hosted, supports cloning [only from GitHub or GitLab](https://developers.cloudflare.com/pages/get-started/git-integration/), but you can visit the [Codeberg Pages](https://codeberg.page) hosted version at https://yuki.obsp.de.
 
 ## License
 
