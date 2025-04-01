@@ -199,3 +199,19 @@ footer {
     flex-shrink: 1;
     color: #1f78d1;
 }
+.support-list li img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .support-list li {
+        flex-wrap: wrap; /* 允许换行 */
+    }
+    .support-list li img {
+        width: 100%;
+        max-width: 280px; /* 适当小于移动端宽度 */
+        margin-top: 8px;  /* 和上方文字保持间距 */
+    }
+}
